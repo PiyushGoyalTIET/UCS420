@@ -1,0 +1,6 @@
+#WAP to find max among three numbers and input from user(try max() function)
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+c = int(input("Enter the third number: "))
+max_num = max(a, b, c)
+print("The maximum number is:", max_num)
